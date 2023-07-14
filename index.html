@@ -13,55 +13,94 @@
       * {
         background: #d3aecc;
       }
-      .page {
-        margin-top: 30px;
+
+      .icons {
+        margin: 10px 0px 0px 0px;
       }
+      .icons a,
+      i {
+        margin: 15px;
+      }
+
       .icons:hover {
         color: #f40574f6;
       }
+      .icons a:hover {
+        color: #000;
+      }
       #frame {
-        background-color: #a4b4c7;
-
-        border: 2px solid rgb(221, 214, 214);
+        border: none;
+        height: 510px;
+        width: 1000px;
       }
       #frame:hover {
         background: #e8a9e4;
       }
+      .nav1 a {
+        margin: 0px 0px 5px 35px;
+        padding: 0px;
+      }
       .nav1 a:hover {
-        color: #fd0606;
+        color: #ed6c3d;
+      }
+      .page .accounts {
+        margin: 10px 0px 10px 20px;
+        font-size: 20px;
+        color: #0404f8;
+        font-weight: bold;
+      }
+      .accounts:hover {
+        color: #0372f9;
+      }
+      .accounts a {
+        margin-right: 0px;
+        padding-right: 0px;
+        color: #7a04f8;
+      }
+      .accounts a:hover {
+        color: #f80505;
       }
     </style>
   </head>
   <body>
     <div class="page">
       <div class="icons">
-        <i class="fa fa-solid fa-user"> Sneha Bodhe</i> &nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-solid fa-phone-square"> 1234567890</i
-        >&nbsp;&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-solid fa-envelope"> snehabodhe2@gmail.com</i
-        >&nbsp;&nbsp;&nbsp;&nbsp;
+        <i class="fa fa-solid fa-user"> Sneha Bodhe</i>
+        <i class="fa fa-solid fa-phone-square"> 1234567890</i>
+        <i class="fa fa-solid fa-envelope"> snehabodhe2@gmail.com</i>
+        <a href="assets/SNFR_resume.pdf" download="" target="_blank"
+          >Download Resume</a
+        >
       </div>
       <br /><br />
       <nav class="nav1">
-        <a href="home.html" target="myframe">HOME</a>&nbsp;&nbsp;&nbsp;
-        <a href="techstack.html" target="myframe">TECH STACK</a
-        >&nbsp;&nbsp;&nbsp;
-        <a href="project.html" target="myframe">PROJECT</a>&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="myframe">EDUCATION</a
-        >&nbsp;&nbsp;&nbsp;
-        <a href="aboutme.html" target="myframe">ABOUT ME</a>&nbsp;&nbsp;&nbsp;
+        <a href="home.html" target="myframe">HOME</a>
+        <a href="techstack.html" target="myframe">TECH STACK</a>
+        <a href="project.html" target="myframe">PROJECT</a>
+        <a href="education.html" target="myframe">EDUCATION</a>
+        <a href="aboutme.html" target="myframe">ABOUT ME</a>
       </nav>
 
       <br /><br />
-      <iframe
-        src=""
-        frameborder="0"
-        height="600px"
-        width="900px"
-        name="myframe"
-        id="frame"
-      >
-      </iframe>
+      <iframe src="" name="myframe" id="frame"> </iframe>
+      <div class="accounts">
+        <span>Follow Me</span>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><i class="fa fa-solid fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com" target="_blank"
+          ><i class="fa fa-solid fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com" target="_blank"
+          ><i class="fa fa-solid fa-facebook"></i
+        ></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fa fa-solid fa-twitter"></i
+        ></a>
+        <a href="https://www.youtube.com" target="_blank"
+          ><i class="fa fa-solid fa-youtube"></i
+        ></a>
+      </div>
     </div>
   </body>
 </html>
