@@ -10,19 +10,31 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
-      .page{
+      * {
+        background: #d3aecc;
+      }
+      .page {
         margin-top: 30px;
       }
-      #frame{
-        
-        border:2px solid rgb(221, 214, 214);
+      .icons:hover {
+        color: #f40574f6;
       }
-      
+      #frame {
+        background-color: #a4b4c7;
+
+        border: 2px solid rgb(221, 214, 214);
+      }
+      #frame:hover {
+        background: #e8a9e4;
+      }
+      .nav1 a:hover {
+        color: #fd0606;
+      }
     </style>
   </head>
   <body>
     <div class="page">
-      <div>
+      <div class="icons">
         <i class="fa fa-solid fa-user"> Sneha Bodhe</i> &nbsp;&nbsp;&nbsp;&nbsp;
         <i class="fa fa-solid fa-phone-square"> 1234567890</i
         >&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,16 +42,25 @@
         >&nbsp;&nbsp;&nbsp;&nbsp;
       </div>
       <br /><br />
-      <nav>
+      <nav class="nav1">
         <a href="home.html" target="myframe">HOME</a>&nbsp;&nbsp;&nbsp;
-        <a href="techstack.html"target="myframe">TECH STACK</a>&nbsp;&nbsp;&nbsp;
+        <a href="techstack.html" target="myframe">TECH STACK</a
+        >&nbsp;&nbsp;&nbsp;
         <a href="project.html" target="myframe">PROJECT</a>&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="myframe">EDUCATION</a>&nbsp;&nbsp;&nbsp;
+        <a href="education.html" target="myframe">EDUCATION</a
+        >&nbsp;&nbsp;&nbsp;
         <a href="aboutme.html" target="myframe">ABOUT ME</a>&nbsp;&nbsp;&nbsp;
       </nav>
 
       <br /><br />
-      <iframe src="" frameborder="0" height="600px" width="900px" name="myframe" id="frame">
+      <iframe
+        src=""
+        frameborder="0"
+        height="600px"
+        width="900px"
+        name="myframe"
+        id="frame"
+      >
       </iframe>
     </div>
   </body>
