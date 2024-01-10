@@ -1,0 +1,252 @@
+*html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(120deg, #f093fb 0%, #8aaef1 100%);
+}
+.doremon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+}
+.doremon-face {
+  width: 210px;
+  height: 160px;
+  background-color: #269dd7;
+  border: 2px solid black;
+  border-radius: 97px 97px 100px 100px;
+  padding-top: 40px;
+  margin-right: 7px;
+}
+.doremon-face > div {
+  width: 170px;
+  height: 160px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 90px 90px 100px 100px;
+  display: block;
+  margin: auto;
+}
+
+.eyes {
+  justify-content: center;
+  display: flex;
+  border: none;
+}
+.doraemon-eye {
+  width: 40px;
+  height: 60px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: -25px 0px 0px 0px;
+  position: relative;
+}
+
+/* .eye-inner {
+  width: 30px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: #f5f2f2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.eye-right-glare {
+  width: 15px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+}
+.eye-rt-glare {
+  width: 5px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 25%;
+  right: 25%;
+}
+
+.eye-left-glare {
+  width: 15px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #000;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+}
+.eye-lt-glare {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 25%;
+  left: 25%;
+}
+.nose {
+  width: 20px;
+  height: 20px;
+  background-color: #e41c39;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-top: -10px;
+}
+.nose-glare {
+  width: 5px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: relative;
+  top: 15%;
+  left: 25%;
+}
+.mouth-line {
+  height: 50px;
+  width: 0px;
+  border: 1px solid black;
+  color: black;
+  position: relative;
+  top: -2px;
+  left: 83px;
+  overflow: visible;
+}
+.mid {
+  display: flex;
+}
+
+.mos1 {
+  width: 40px;
+  height: 0px;
+  border-bottom: 2px solid black;
+  transform: rotate(25deg);
+  position: relative;
+  top: -55px;
+  left: 30px;
+ 
+}
+.mos2 {
+  width: 40px;
+  height: 0px;
+  border-bottom: 2px solid black;
+  transform: rotate(10deg);
+  position: relative;
+  top: -45px;
+  left: 28px;
+  
+}
+.mos3 {
+  width: 40px;
+  height: 0px;
+  border-bottom: 2px solid black;
+  transform: rotate(-10deg);
+  position: relative;
+  top: -33px;
+  left: 23px;
+  
+}
+.mos4 {
+  width: 40px;
+  height: 0px;
+  border-bottom: 2px solid black;
+  transform: rotate(-20deg);
+  position: relative;
+  top: -58px;
+  left: 98px;
+ 
+}
+.mos5 {
+  width: 40px;
+  height: 0px;
+  border-bottom: 2px solid black;
+  transform: rotate(-8deg);
+  position: relative;
+  top: -48px;
+  left: 100px;
+  
+}
+.mos6 {
+  width: 40px;
+  height: 0px;
+  border-bottom: 2px solid black;
+  transform: rotate(8deg);
+  position: relative;
+  top: -35px;
+  left: 102px;
+  
+}
+
+.mouth-left {
+  width: 65px;
+  height: 0px;
+  border-bottom: 2px solid black;
+  transform: rotate(15deg);
+  position: relative;
+  top: -20px;
+  left: 20px;
+
+}
+.mouth-right {
+  width: 65px;
+  height: 0px;
+  border-bottom: 2px solid black;
+  transform: rotate(-15deg);
+  position: relative;
+  top: -22px;
+  left: 83px;
+  
+}
+.belt {
+  width: 130px;
+  height: 10px;
+  background-color: #e41c39;
+  border: 2px solid black;
+  margin-top: -15px;
+  margin-right: 10px;
+  z-index: 5;
+}
+.bell {
+  width: 20px;
+  height: 20px;
+  background-color: #fdeb59;
+  border: 2px solid black;
+  border-radius: 50px;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.line1{
+  background: #000;
+  width: 20px;
+  height: 1.5px;
+  margin-top: 5px;
+}
+.line2{
+  background: #000;
+  width: 20px;
+  height: 1.5px;
+  margin-top: 2px;
+}
+.bell-mid{
+  width: 3px;
+  height: 3px;
+  background-color: black;
+  border: 2px solid black;
+  display: flex;
+  margin-top: 10%;
+  border-radius: 40%;
+  margin-left: 8px;
+}

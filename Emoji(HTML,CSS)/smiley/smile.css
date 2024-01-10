@@ -1,0 +1,71 @@
+/* Styles for the smiley face */
+.smiley {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  border-radius: 50%;
+  background-color: #ffd700; /* yellow */
+  position: relative;
+  animation: smile 2s infinite alternate;
+}
+
+/* Styles for the eyes */
+.eyes {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+/* Positioning the second eye */
+.eyes.right {
+  left: 65%;
+}
+
+/* Styles for the mouth (initial) */
+.mouth {
+  width: 50px;
+  height: 20px;
+  border: 2px solid black;
+
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: smileMouth 2s infinite alternate;
+}
+
+/* Animation for the smile */
+@keyframes smile {
+  0%,
+  100% {
+    transform-origin: 50% 50%;
+    transform: scale(1);
+  }
+  50% {
+    transform-origin: 50% 60%;
+    transform: scale(1.1);
+  }
+}
+
+/* Animation for the mouth */
+@keyframes smileMouth {
+  0%,
+  100% {
+    width: 50px;
+    height: 20px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+  }
+  50% {
+    width: 70px;
+    height: 30px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+}
